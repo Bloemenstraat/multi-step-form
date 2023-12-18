@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url('./assets/fonts/Ubuntu-Bold.ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('./assets/fonts/Ubuntu-Medium.ttf');
+  font-weight: 600;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url('./assets/fonts/Ubuntu-Regular.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  /* Define primary colors */
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+
+  /* Define neutral colors */
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+
+  font-family: Ubuntu, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline:none;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;   
+  box-sizing: border-box;        
+}
+
+button {
+  font-family: Ubuntu, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: #03295A !important;
+}

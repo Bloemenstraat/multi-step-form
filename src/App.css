@@ -1,0 +1,83 @@
+#root {
+    background-color: #EEF5FF;
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #FDFFFF;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    border-radius: 12px;
+}
+
+.sidebar {
+    background-image: url('./assets/bg-sidebar-desktop.svg');
+    background-size: 100% 100%;
+    width: 25%;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+.content {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4em;
+}
+
+.scaffold {
+    color: black;
+    flex: 1 1 auto;
+}
+
+.buttonbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonbar button {
+    padding: 0.8em 1.2em;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next {
+    background-color: var(--marine-blue);
+}
+
+.next:hover {
+    background-color: var(--purplish-blue);
+}
+
+.back {
+    color: var(--cool-gray);
+    background-color: #FDFFFF;
+}
+
+.back:hover {
+    color: var(--marine-blue);
+}
+
+.confirm {
+    background-color: var(--purplish-blue);
+}
+
+.confirm:hover {
+    background-color: var(--pastel-blue);
+}

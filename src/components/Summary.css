@@ -1,0 +1,59 @@
+.bill {
+    background-color: var(--magnolia);
+    border-radius: 6px;
+    padding: 1em 2em;
+    margin-top: 20px;
+}
+
+.change-plan {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-plan h6 {
+    font-size: 1.2em;
+    color: var(--marine-blue);
+}
+
+.change-plan a {
+    font-size: 0.9em;
+    cursor: pointer;
+    color: var(--cool-gray);
+}
+
+.change-plan a:hover {
+    text-decoration: underline;
+    color: var(--purplish-blue);
+}
+
+.plan-line p {
+    color: var(--marine-blue);
+    font-weight: bold;
+}
+
+
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    padding: 1em 2em;
+}
+
+.total p:last-child {
+    color: var(--purplish-blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.separator {
+    border-bottom: 1px solid var(--light-gray);
+    margin: 0.8em 0;
+}
+
+.addonline p:last-child {
+    color: var(--marine-blue);
+}

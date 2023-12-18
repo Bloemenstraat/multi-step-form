@@ -1,0 +1,56 @@
+.checkcard, .checkcard-selected {
+    width: 100%;
+    
+    border-radius: 6px;
+    border: #B7C9E2 1px solid;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.checkcard-selected {
+    background-color: #F8F9FE;
+    border: #483EFF 1px solid;
+}
+
+.checkcard:hover {
+    border: #483EFF 1px solid;
+}
+
+.customcheck {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkmark, .checkmark-selected {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    border: #B7C9E2 1px solid;
+}
+
+.checkmark-selected {
+    background-color: #483EFF;
+    position: relative;
+}
+
+.checkmark-selected:after {
+    content: "";
+    position: absolute;
+  }
+
+.checkmark-selected:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

@@ -1,0 +1,34 @@
+.card, .card-selected {
+    min-width: 25%;
+    height: 200px;
+    border-radius: 6px;
+    border: #B7C9E2 1px solid;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+
+.card:hover {
+    border: #59539B 1px solid;
+}
+
+.card-selected {
+    background-color: #F8F9FE;
+    border: #59539B 1px solid;
+}
+
+.card img, .card-selected img {
+    width: 3em;
+    height: 3em;
+}
+
+.card-text h6 {
+    color: #03295A;
+    font-size: 1.1em;
+}
+
+.card-text p {
+    font-size: 0.9em;
+}

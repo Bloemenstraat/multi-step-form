@@ -1,0 +1,41 @@
+.step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    user-select: none;
+}
+
+.step .number {
+    border: 2px var(--white) solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step .selected-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    color: var(--marine-blue);
+    border: none;
+}
+
+.step p {
+    font-size: 0.7em;
+}
+
+.step p:first-child {
+    color: var(--cool-gray);
+}
+.step p:last-child {
+    color: var(--white);
+    font-weight: bold;
+}
