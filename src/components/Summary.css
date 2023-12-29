@@ -57,3 +57,19 @@
 .addonline p:last-child {
     color: var(--marine-blue);
 }
+
+@media screen and (max-width: 375px) {
+
+    .bill h6 {
+        font-size: 0.9em;
+    }
+
+    .bill p, .total p {
+        font-size: 0.8em;        
+    }
+
+    .total p:last-child {
+        font-size: 1em;
+    }
+}
+

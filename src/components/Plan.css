@@ -83,3 +83,18 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+@media screen and (max-width: 375px) {
+
+    .plan-cards {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        margin: 1.0em 0;
+    }
+
+    
+
+
+
+}

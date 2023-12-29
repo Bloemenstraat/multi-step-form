@@ -39,3 +39,11 @@
     color: var(--white);
     font-weight: bold;
 }
+
+@media screen and (max-width: 375px) {
+    .step {
+        gap: 0;
+        width: auto;
+    }
+    
+}

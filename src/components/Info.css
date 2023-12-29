@@ -59,3 +59,9 @@ input:focus {
     border: var(--strawberry-red) 1px solid;
 }
 
+@media screen and (max-width: 375px) {
+    h3 {
+        font-size: 1.5em;
+    }
+    
+}

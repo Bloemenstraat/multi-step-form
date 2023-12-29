@@ -32,3 +32,25 @@
 .card-text p {
     font-size: 0.9em;
 }
+
+@media screen and (max-width: 375px) {
+
+    .card, .card-selected {
+        min-width: 25%;
+        height: auto;
+        border-radius: 6px;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 15px 15px;
+    }
+
+    .card-text h6, .card-text p {
+        font-size: 0.8em;
+    }
+
+    .card img, .card-selected img {
+        width: 1.8em;
+        height: 1.8em;
+    }
+}

@@ -1,6 +1,5 @@
 .checkcard, .checkcard-selected {
-    width: 100%;
-    
+    width: 100%;    
     border-radius: 6px;
     border: #B7C9E2 1px solid;
     cursor: pointer;
@@ -54,3 +53,15 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+  @media screen and (max-width: 375px) {
+
+    .checkcard, .checkcard-selected {
+        padding: 5px 8px;
+    }
+
+    .checkcard, .checkcard-selected p {
+        font-size: 0.8em;
+    }
+    
+}
